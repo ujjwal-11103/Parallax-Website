@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url(ded2.jpg);
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url(dwd1.jpg);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url(dwd3.jpg);
+    min-height: 400px;
+}
+
+.pimg4 {
+    background-image: url(dwd4.jpg);
+    min-height: 100%;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ptext {
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg {
+    border: 2px solid purple;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #0e1538;
+
+}
+
+.textbg2 {
+    display: inline-block;
+    padding: 10px 80px;
+    text-align: justify;
+}
+
+.section-light {
+    display: inline-block;
+    padding: 15px 0px;
+    text-align: center;
+    background-color: #262b30;
+    color: #f5f2f2;
+}
+
+.section-dark {
+    display: inline-block;
+    /* padding-top: 20px; */
+    padding: 15px 0px;
+    text-align: center;
+    background-color: #262b30;
+    color: #f5f2f2;
+}
